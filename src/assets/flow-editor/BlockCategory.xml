@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BlockList>
+<!--標準版*-->
+<Block Category="Data Query" BlockName="AdvGenericDataQuery" Title="Generic Data Query" Description="Generic Data Query" />
+<Block Category="Data Query" BlockName="SQLBlock" Title="SQL Block" Description="SQL Block" />
+
+<Block Category="Data Process"  BlockName="ImportDataBlock" Title="Data Import" Description="資料匯入 (支援格式: xls;xlsx;csv;txt;dat…)" />
+<Block Category="Data Process"  BlockName="DataExportBlock" Title="Data Export" Description="資料匯出 (支援格式: Csv;Excel;HTML;XML)" />
+<Block Category="Data Process"  BlockName="DataFilterBlock" Title="Data Filter" Description="資料過濾篩選 (統計方法、邏輯方法、抽樣方法)" />
+<Block Category="Data Process"  BlockName="ColumnToRow" Title="Column To Row" Description="欄轉列" />
+<Block Category="Data Process"  BlockName="RowToColumn" Title="Row To Column" Description="列轉欄" />
+<Block Category="Data Process"  BlockName="DataSplitBlock" Title="Data Split" Description="資料定義分群" />
+<Block Category="Data Process"  BlockName="DataManipulationBlock" Title="Data Manipulation" Description="資料處理
+		(1)表的合併: JOIN (多種 JOIN方式)/UNION/MINUS
+		(2)欄位之新增/修改/排序
+		(3)資料排序定義
+		(4)函數功能(部分如 Excel 函數)
+		(5)分群統計量計算" />"
+<Block Category="Data Process" BlockName="DataMergeBlock" Title="Data Merge" Description="多個資料表的合併" /> 
+
+
+<Block Category="Basic Analysis"  BlockName="SummaryTableBlock" Title="Summary Table Block" Description="敘述統計分析" />
+<Block Category="Basic Analysis"  BlockName="ChartBlock" Title="Chart" Description="繪圖
+		Trend Chart, Bar Chart, StackBar, Area
+		Time Series Chart
+		Pie Chart, Pareto Chart
+		Box Plot, Interval Plot
+		Delta plot, Scatter plot, ScatterPlot3D, ScatterMatrix
+		Histogram plot, Normal Probability Plot
+		P-P Plot, Q-Q Plot
+		Surface Plot
+		Contour Plot
+		Color Grid Plot
+		Box Trend" />
+<Block Category="Basic Analysis"  BlockName="StatisticBlock" Title="Statistic" Description="整合型統計分析功能" />
+<Block Category="Basic Analysis"  BlockName="StatisticBlockV2" Title="StatisticV2" Description="整合型統計分析功能V2" />
+<Block Category="Basic Analysis"  BlockName="CorrelationAnalysisBlock" Title="Correlation Analysis" Description="關連分析
+		(1) 多變數同時分析
+		(2) 線性與多次回歸" />
+<Block Category="Basic Analysis"  BlockName="KruskalWallisAnalysisBlock" Title="Kruskal-Wallis Analysis" Description="Kruskal-Wallis 無母數分析" />
+<Block Category="Basic Analysis"  BlockName="OneWayAnovaAnalysisBlock" Title="One-Way Anova Analysis" Description="One-Way Anova 單因子變異數分析" />
+<Block Category="Basic Analysis"  BlockName="TwoWayAnovaAnalysisBlock" Title="Two-Way Anova Analysis" Description="(平衡)Two-Way Anova 二因子變異數" />
+<Block Category="Basic Analysis" BlockName="GroupingChart"  Title="Grouping Chart"  Description="Multi-Level grouping X labels chart" />
+<Block Category="Basic Analysis" BlockName="SampleSizeEstimationAnalysis" Title="SampleSizeEstimation" Description="SampleSizeEstimation Analysis" /> 
+
+<Block Category="Advanced Analysis"  BlockName="CommonalityBlock" Title="CommonalityBlock" Description="進階共通性分析
+		(1) 以 information gain 為基礎
+		(2) 投票法 與 時間序列法之KPI
+		(3) 搭配圖形、統計量" />
+<Block Category="Advanced Analysis"  BlockName="GenericParametricSensitivity" Title="GenericParametricSensitivity" Description="雙因子關連分析
+		以X因子分群檢定Y因子" />
+<Block Category="Advanced Analysis" BlockName="PivotAnalysis" Title="Pivot Analysis" Description="Pivot Analysis Block" />
+<Block Category="Advanced Analysis" BlockName="KMeansClusterAnalysisBlock" Title="KMeansCluster Analyzer" Description="Cluster Analyzer" />
+<Block Category="Advanced Analysis" BlockName="IndependentSampleTestBlock" Title="Adv.IndependentSampleTestBlock" Description="Independent sample test" />  
+<Block Category="Advanced Analysis" BlockName="OneSampleTestBlock" Title="Adv.OneSampleTestBlock" Description="One sample test" />  
+<Block Category="Advanced Analysis" BlockName="DistributionTestBlock" Title="Adv.DistributionTestBlock" Description="Distribution test" />  
+<Block Category="Advanced Analysis" BlockName="DependentSampleTestBlock" Title="Adv.DependentSampleTestBlock" Description="Paired Sample Test" />  
+<Block Category="Advanced Analysis" BlockName="DOEAnalysisBlock" Title="Taguchi Analysis" Description="Taguchi Analysis" />
+<Block Category="Advanced Analysis" BlockName="NestedBlock"  Title="Nested Block"    Description="Nested Block" />
+<Block Category="Advanced Analysis" BlockName="RandomForest" Title="RandomForest" Description="RandomForest" />
+<Block Category="Advanced Analysis" BlockName="TaguchiDesignBlock" Title="Taguchi Design Block" Description="Taguchi Design Block" />
+
+<Block Category="Map"  BlockName="WaferByZoneGrouping" Title="Wafer By Zone" Description="圓形MAP中自由定義區域分群" />
+<Block Category="Map"  BlockName="UMapAnalyzer" Title="UMAP Analyzer" Description="Universal Map Analyzer" />
+<Block Category="Map"  BlockName="BinMapAnalyzer" Title="Bin Map Analyzer" Description="Advanced Bin Map Analyzer" />
+<Block Category="Map"  BlockName="YieldMapQuickView" Title="Yield Map Quick View" Description="Yield Map Quick View" />
+<Block Category="Map" BlockName="BitMapAnalyzer" Title="Bit Map Analyzer" Description="Bit Map Analysis and Defect Correlation" />
+<Block Category="Map" BlockName="DMS" Title="DMS" Description="DMS" />
+<Block Category="Map" BlockName="DefectMapBlock" Title="DefectMap" Description="Defect Map View" />
+<Block Category="Map" BlockName="WaferZoneSearchBlock" Title="Wafer Zone Search" Description="Intelligent finding matched wafer by zone definition" />
+
+<Block Category="MVA"  BlockName="PrincipalComponentAnalysisBlock" Title="Principal Component Analysis Block" Description="主成分分析" />
+<Block Category="MVA"  BlockName="MultipleRegressionAnalysis" Title="Multiple Regression Analysis Block" Description="多元線性迴歸(含stepwise  polynomial)" />
+<Block Category="MVA"  BlockName="PLSRegressionAnalysis" Title="PLS Regression Analysis" Description="PLS迴歸分析(偏最小平方法)" />
+<Block Category="MVA"  BlockName="PredictionModelFittingBlock" Title="Predition Model Fitting Block" Description="Fitting value using pre-defined prediction model" />
+<Block Category="MVA" BlockName="DataMiningBlock" Title="Decision Tree" Description="C4.5決策樹(改良版)" />
+	
+	
+<Block Category="WorkFlow"  BlockName="ConditionBlock" Title="Condition Block" Description="分析流程決策" />
+<Block Category="WorkFlow" BlockName="EMailBlock" Title="EMail" Description="Send EMail" />
+<Block Category="WorkFlow" BlockName="RecipeTriggerBlock" Title="RecipeTriggerBlock Analysis" Description="RecipeTriggerBlock Analysis" />
+<Block Category="WorkFlow" BlockName="TriggerReceiverBlock" Title="Trigger Receiver Block" Description="Trigger Receiver Block" />
+<Block Category="WorkFlow" BlockName="GVReaderBlock" Title="GVReaderBlock" Description="Read table from Golbal Variable" />
+<Block Category="WorkFlow" BlockName="SubRecipeBlock" Title="Sub Recipe" Description="Vidas Sub Recipe Block" />
+<Block Category="WorkFlow" BlockName="ReportCooker"   Title="ReportCooker"  Description="Generate Report Block" />
+	
+<Block Category="XDM Link"  BlockName="ExcelMacroBlock" Title="ExcelMacro" Description="Excel巨集連結" />
+<Block Category="XDM Link"  BlockName="RLink" Title="R Link Block" Description="R語言連結" />
+<Block Category="XDM Link" BlockName="JMPScriptBlock" Title="JMP Script Block" Description="Allow to Run JMP Script" />
+<Block Category="XDM Link" BlockName="ScriptingBlock" Title="Scripting Block" Description="Scripting Data" /> 
+
+<Block Category="Platform" BlockName="FileUploadBlock" Title="FileUpload Block" Description="File Upload process block" /> 
+
+<Block Category="Quality" BlockName="StatControlChartBlock" Title="Offline SPC Analysis" Description="Offline SPC Analysis Block" />
+<Block Category="Quality" BlockName="CpkReviewSummaryBlock" Title="Process Capability Analysis" Description="Process Capability Analysis Block" />
+
+<!--標準版&-->
+	
+<!--	
+	<Block Category="待討論" BlockName="DataLogParserBlock" Title="DataLogParser" Description="DataLog Parser Block" />
+	<Block Category="待討論" BlockName="EquipmentStudyAnalysis" Title="Equipment Study Analysis(FPD)" Description="Equipment Study Analysis(FPD)" />
+	<Block Category="待討論" BlockName="GaugeRRAnalysis" Title="GaugeRR Analysis Block" Description="GaugeRR Analysis Block" />
+	<Block Category="待討論" BlockName="BindSpecData" Title="BindSpec" Description="Bind Spec And Data Block" />
+	<Block Category="待討論" BlockName="CurveChartAnalysis" Title="Curve Chart Analysis" Description="Curve Chart Analysis" />
+	<Block Category="待討論" BlockName="DifferenceSensitivityAnalysis" Title="Difference Sensitivity Analysis" Description="Difference Sensitivity Analysis" />
+	<Block Category="待討論" BlockName="RuleEvaluationBlock" Title="Rule Evaluation (C#、VB.NET)" Description="Rule Evaluation Block" />
+	<Block Category="待討論" BlockName="xFDC" Title="xFDC" Description="xFDC Multivariate Analysis Block" />
+	<Block Category="待討論" BlockName="CIEChartAnalysisBlock" Title="CIE Chart Analysis" Description="CIE Chart Analysis" />
+
+	<Block Category="EPISTAR" BlockName="IBM.SPCBlock" Title="IBM SPCBlock" Description="IBM SPC Analysis Block" />
+	<Block Category="LCD" BlockName="LCDDefectMap" Title="Defect Map" Description="Defect Map Block" />
+	<Block Category="LCD" BlockName="Adv.TotalPitchBlcok" Title="Total Pitch Blcok" Description="Total Pitch Blcok" />
+	<Block Category="Maxchip,Epistar" BlockName="ProcessChangeImpactAnalysis" Title="Process Change Impact Analysis" Description="Analysis the impact when process makes some changes" />
+	<Block Category="Maxchip,Epistar" BlockName="TwoSampleComparisonAnalysisBlock" Title="Two Sample Comparison Analysis" Description="Two Sample Comparison Analysis" />
+	<Block Category="Customer" BlockName="ParametricUniformityAnalysis" Title="Variance Source Sensitivity" Description="Variance Source Sensitivity Analysis" />
+	<Block Category="Customer" BlockName="TCE.EquipmentSensitivityAnalysis" Title="Equipment Sensitivity" Description="TCE Equipment Sensitivity Analysis" />
+	<Block Category="Customer" BlockName="TCE.EventCorrelationAnalysis" Title="Event Correlation" Description="TCE Event Correlation Analysis" />
+	<Block Category="Customer" BlockName="TCE.GenericCommonalityBlock" Title="Generic Commonality" Description="TCE Generic Commonality Analysis" />
+	<Block Category="Customer" BlockName="TCE.EquipmentPathAnalysis" Title="Equipment Path" Description="TCE Equipment Path Analysis" />
+	<Block Category="Customer" BlockName="TCE.QTimeAnalysis" Title="QTime" Description="TCE Q-Time Analysis" />
+	<Block Category="Customer" BlockName="Adv.INFMapAnalyzer" Title="INF Map Analyzer" Description="Defect INF Map Analyzer" />
+
+	<Block Category="UMC" BlockName="FDCMVABlock" Title="FDC MVA Block" Description="FDC Multivariate Analysis Block" />
+	<Block Category="UMC" BlockName="Asymmetry2DOutlierScreen" Title="Asymmetry2DOutlierScreen" Description="Asymmetry2DOutlierScreen" />
+	<Block Category="UMC" BlockName="UMC.DataQueryBlock" Title="Data Query" Description="UMC - Common Data Query Block" />
+	<Block Category="UMC" BlockName="UMC.NonLotQueryBlock" Title="NonLot Data Query" Description="NonLot Data Query for UMC" />   
+	<Block Category="UMC" BlockName="UMC.LotHistory" Title="Lot History" Description="UMC Lot History Block" />
+	<Block Category="UMC" BlockName="UMC.InlineDefectData" Title="Inline Defect Data" Description="Inline Defect Data Query Block" />   
+	<Block Category="UMC" BlockName="UMC.OQADataQuery" Title="OQA Data Query" Description="UMC - OQA Data Query Block" />
+	<Block Category="UMC" BlockName="UMC.SEMASDataQuery" Title="SEMAS Data Query" Description="SEMAS Data Query" />
+	<Block Category="UMC" BlockName="UMC.HoldLotQuery" Title="Hold Lot Query" Description="UMC Hold Lot Query" />  
+	<Block Category="UMC" BlockName="UMC.R2IndexDataQuery" Title="R2 Data Query" Description="UMC R2 Data Query Block" />
+	<Block Category="UMC" BlockName="UMC.SSAReviewBlock" Title="SSA Review Block" Description="UMC - SSA Review Block" /> 
+	<Block Category="UMC" BlockName="Big Data Query"   Title="Big Data Query"    Description="Big Data Query" />
+	<Block Category="UMC" BlockName="UMC.LotQueryBolock"   Title="Lot Query"    Description="Lot Query" />
+	<Block Category="UMC" BlockName="UMC.WAT2EQ" Title="WAT2EQ" Description="WAT Correlation EQ" />
+	<Block Category="UMC" BlockName="UMC.WAT2Inline" Title="WAT2Inline" Description="WAT Correlation Inline" />
+	<Block Category="UMC" BlockName="UMC.WAT2WAT" Title="WAT2WAT" Description="WAT Correlation WAT" />
+	<Block Category="UMC" BlockName="UMC.CP2EQ" Title="CP2EQ" Description="CP Correlation EQ" />
+	<Block Category="UMC" BlockName="UMC.CP2Inline" Title="CP2Inline" Description="CP Correlation Inline" />
+	<Block Category="UMC" BlockName="UMC.CP2WAT" Title="CP2WAT" Description="CP Correlation WAT" />
+	<Block Category="UMC" BlockName="UMC.BTV2EQ" Title="BTV2EQ" Description="BTV Correlation EQ" />
+	<Block Category="UMC" BlockName="UMC.BTV2WAT" Title="BTV2WAT" Description="BTV Correlation WAT" />
+	<Block Category="UMC" BlockName="UMC.BTV2Inline" Title="BTV2Inline" Description="BTV Correlation Inline"/>
+	<Block Category="UMC" BlockName="UMC.LotCommonalityBlock" Title="UMC LotCommonality" Description="UMC Lot Commonality Analysis" />  
+	<Block Category="UMC" BlockName="UMC.FNDM" Title="Failure net vs defect mapping" Description="Failure net vs defect mapping" />
+	<Block Category="UMC" BlockName="UMC.FNDM_V2" Title="HS Failure net vs defect mapping" Description="HS Failure net vs defect mapping" />
+	<Block Category="UMC" BlockName="UMC.BTVMAP" Title="BTV Map" Description="BTV Map" />
+	<Block Category="UMC" BlockName="UMC.xATD" Title="xATD" Description="xATD Block" />
+	<Block Category="UMC" BlockName="UMC.CorrelationMiningBlock"  Title="Data Sensitivity Mining" Description="UMC Data Sensitivity Mining" />
+	<Block Category="UMC" BlockName="UMC.CommonalityAppBlock" Title="UMC Commonality App" Description="Commonality calculation APP" />
+	<Block Category="UMC" BlockName="UMC.CPKReviewBlock" Title="CPK Review Block" Description="CPK Review Block" />
+	<Block Category="UMC" BlockName="UMC.PCRBBlock" Title="PCRB" Description="PCRB" />
+	<Block Category="UMC" BlockName="UMC.DefectOnHold" Title="DefectOnHold" Description="Defect On Hold Block" />
+	<Block Category="UMC" BlockName="UMC.BBS" Title="BBS Query" Description="BBS Query" />
+	<Block Category="UMC" BlockName="KernelMapAnalyzer" Title="Kernel Map Analyzer" Description="Kernel Map Analyzer" />
+	<Block Category="UMC" BlockName="YieldSweetSpotModelBlock" Title="Yield Sweet Spot Model" Description="Yield Sweet Spot Model" />
+	<Block Category="UMC" BlockName="ScriptingDataManipulationBlock" Title="ScriptingDataManipulation" Description="Scripting Data Manipulation Block" />
+	<Block Category="UMC" BlockName="VYSYieldPredictBlock" Title="VYS Yield Predict Block" Description="Yield Predict Block" />
+	<Block Category="UMC" BlockName="WatMapAnalyzer" Title="Inline-WAT Map" Description="Inline-WAT Map" />
+	<Block Category="UMC" BlockName="TwoDRegressionComparison" Title="2D Regression Comparison" Description="2D Regression Comparison Block" />
+
+
+	<Block Category="Offline" BlockName="DescriptionBlock" Title="DescriptionBlock" Description="Description Block" />
+	<Block Category="Offline" BlockName="DecisionTreeBlock" Title="Decision Tree" Description="Decision Tree" />
+	<Block Category="Offline" BlockName="UMCEngineerRun" Title="Engineer Run Test" Description="Engineer Run Test Block" />
+	<Block Category="Offline" BlockName="UMCQTime" Title="QTime Analysis" Description="QTime Analysis" />
+	<Block Category="Offline" BlockName="SetSpecBlock" Title="SetSpec" Description="Set Spec Block" />
+	<Block Category="Offline" BlockName="ContourWaferMapAnalyzer" Title="Contour Wafer Map Analyzer" Description="Contour Wafer Map Analyzer" />
+	<Block Category="Offline" BlockName="QPM.DataQueryBlock" Title="Data Query" Description="QPM Data Query Block" />
+	<Block Category="Offline" BlockName="QPM.EquipDataQueryBlock" Title="Equip Data" Description="QPM Equip Data Query Block" />
+	<Block Category="Offline" BlockName="QPM.EventCorrelationAnalysis" Title="Event Correlation" Description="QPM Event Correlation Analysis" />
+	<Block Category="Offline" BlockName="QPM.EquipmentSensitivityAnalysis" Title="Equipment Sensitivity" Description="QPM Equipment Sensitivity Analysis" />
+	<Block Category="Offline" BlockName="QPM.GenericCommonalityBlock" Title="Generic Commonality" Description="QPM Generic Commonality Analysis" />
+	<Block Category="Offline" BlockName="QPM.MaterialCommonalityBlock" Title="Material Commonality" Description="QPM Material Commonality Analysis" />
+	<Block Category="Offline" BlockName="QPM.ContinousCommonalityBlock" Title="Continuous Commonality" Description="QPM Continuous Commonality Analysis" />
+	<Block Category="Offline" BlockName="QPM.EquipmentPathAnalysis" Title="Equipment Path" Description="QPM Equipment Path Analysis" />
+	<Block Category="Offline" BlockName="QPM.QTimeAnalysis" Title="QTime" Description="QPM Q-Time Analysis" />	
+	<Block Category="Offline" BlockName="LCDParametricMap" Title="Parametric Map" Description="Parametric Map Block" />
+	<Block Category="Offline" BlockName="SortParamMapAnalyzer" Title="SortParamMapAnalyzer" Description="SortParamMapAnalyzer" />
+	<Block Category="Offline" BlockName="PolyRegressionAnalysis" Title="Poly Regression Analysis" Description="Poly Regression Analysis Block" />
+	<Block Category="Offline" BlockName="RegressionAnalysisBlock" Title="Regression Analysis" Description="Regression Analysis Block" />
+	<Block Category="Offline" BlockName="StepwiseRegressionAnalysis" Title="Stepwise Regression Analysis" Description="Stepwise Regression Analysis" />
+-->
+
+</BlockList>
